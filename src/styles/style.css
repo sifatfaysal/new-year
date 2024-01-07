@@ -1,0 +1,103 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* body global styles */
+body {
+	font-family: 'Merriweather', serif;
+}
+
+/* container main layout style */
+.container {
+	width: 75%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+/* hero section styles */
+.hero_section {
+	background-image: url(../images/hero_bg.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1320px;
+	height: 600px;
+	margin: 50px auto;
+}
+
+.hero_tag {
+	color: #fff;
+	text-align: center;
+	font-family: Merriweather;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.hero_title {
+	color: #fff;
+	text-align: center;
+	font-family: Merriweather;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 95px;
+}
+
+/* offer section styles */
+.offer_section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.offer_content {
+	text-align: center;
+	margin: 70px auto;
+}
+
+.offer_heading {
+	color: #f00;
+	text-align: center;
+	font-family: Inter;
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 48px;
+}
+
+.offer_title {
+	color: #f00;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-top: 16px;
+}
+
+.offer_button {
+	color: #070211;
+	text-align: center;
+	font-family: Inter;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.offer_content img {
+	width: 800px;
+	height: 500px;
+	margin: 48px auto;
+}
