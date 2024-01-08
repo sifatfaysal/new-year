@@ -295,3 +295,116 @@ body {
 	border-radius: 50%;
 	padding: 30px;
 }
+
+/* sales section styles */
+.sales section {
+}
+
+.sales_section_content {
+	text-align: center;
+	justify-content: center;
+}
+
+.sales_tag {
+	color: #070211;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.sales_title {
+	color: #f00;
+	text-align: center;
+	font-family: Merriweather;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.sales_title_span {
+	color: #070211;
+	font-family: Merriweather;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.sales_description {
+	color: rgba(7, 2, 17, 0.6);
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.sales_media_section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sales_shape {
+	width: 1320px;
+	height: 229px;
+	border-radius: 16px 0px 16px 16px;
+	background: #f00;
+	margin: 0;
+}
+
+.sales_img_one {
+	width: 500px;
+	height: 500px;
+	margin-bottom: -200px;
+}
+
+.sales_img_two {
+	width: 429px;
+	height: 433px;
+	margin: 0;
+}
+
+/* portfolio section styles */
+.portfolio_section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.portfolio_tag {
+	color: #f00;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.portfolio_title {
+	color: #070211;
+	font-family: Merriweather;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.portfolio_description {
+	width: 896px;
+	color: rgba(7, 2, 17, 0.6);
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.portfolio_img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	gap: 75px;
+	flex-wrap: wrap;
+}
