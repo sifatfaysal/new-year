@@ -143,8 +143,7 @@ body {
 	margin-top: 40px;
 }
 
-.welcome_button,
-a {
+.welcome_button {
 	color: #fff;
 	text-align: center;
 	font-family: Inter;
@@ -158,6 +157,7 @@ a {
 	text-decoration: none;
 	margin-top: 48px;
 	margin-left: 30px;
+	cursor: pointer;
 }
 
 .welcome_image {
@@ -165,4 +165,63 @@ a {
 	height: 464px;
 }
 
+/* event section styles */
+.event_section {
+	margin-top: 110px;
+	width: 1320px;
+	height: 482px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/event_bg.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px;
+	border: none;
+	border-radius: 16px;
+}
 
+.event_container {
+	text-align: center;
+}
+
+.event_title {
+	color: #070211;
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 56px;
+	text-transform: capitalize;
+}
+
+.event_span {
+	color: #f00;
+	text-align: center;
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 56px;
+	text-transform: capitalize;
+}
+.event_button {
+	background: #f00;
+	border: none;
+	border-radius: 8px;
+	padding: 16px 32px;
+}
+.event_button {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 48px;
+}
