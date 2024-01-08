@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* css reset */
 * {
@@ -9,7 +10,7 @@
 
 /* body global styles */
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', 'Inter', serif;
 }
 
 /* container main layout style */
@@ -23,7 +24,7 @@ body {
 .hero_section {
 	background-image: url(../images/hero_bg.svg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -101,3 +102,67 @@ body {
 	height: 500px;
 	margin: 48px auto;
 }
+
+/* welcome section styles */
+.welcome_section {
+	border: 3px solid red;
+	background-color: rgb(27, 8, 8);
+	background: url(../images/welcome_bg.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: none;
+	border-radius: 16px;
+	padding: 120px;
+}
+
+.welcome_container {
+	display: flex;
+	gap: 160px;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome_title {
+	color: #fff;
+	font-family: Merriweather;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 88px;
+	letter-spacing: 7.04px;
+}
+
+.welcome_description {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 40px;
+}
+
+.welcome_button,
+a {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	background-color: transparent !important;
+	border: none;
+	text-decoration: none;
+	margin-top: 48px;
+	margin-left: 30px;
+}
+
+.welcome_image {
+	width: 320px;
+	height: 464px;
+}
+
+
