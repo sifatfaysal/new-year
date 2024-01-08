@@ -483,3 +483,48 @@ body {
 	font-weight: 400;
 	line-height: normal;
 }
+
+/* footer styles */
+.footer {
+	background: #070211;
+	height: 300px;
+	margin-top: 100px;
+	padding: 100px 200px;
+}
+
+.address {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.location {
+	display: flex;
+	gap: 20px;
+}
+
+.footer_text {
+	color: #fff;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.social_icon {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.social_icon .img {
+	width: 64px;
+	height: 64px;
+}
