@@ -225,3 +225,73 @@ body {
 	cursor: pointer;
 	margin-top: 48px;
 }
+
+/* coming soon styles */
+.coming_soon_section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.coming_soon_section div {
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.coming_soon_tag {
+	color: #f00;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.coming_soon_title {
+	color: #070211;
+	font-family: Merriweather;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+
+.coming_soon_description {
+	color: rgba(7, 2, 17, 0.6);
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+
+.coming_soon_year {
+	color: #f00;
+	font-family: Inter;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 16px;
+}
+
+.coming_soon_image_tag {
+	width: 140px;
+	height: 140px;
+}
+
+.coming_soon_image {
+	width: 364px;
+	height: 364px;
+	border: 15px solid red;
+	box-sizing: border-box;
+	border-radius: 50%;
+	padding: 30px;
+}
